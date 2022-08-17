@@ -1,0 +1,35 @@
+Domestic Robots
+---------------
+d1 - Roomba Vacuum
+d2 - IRT Maid
+d3 - Mitsubishi Wakamaru
+d4 - Honda Asimo
+d5 - Robomow RS630	
+d6 - Korean Robot Smiley
+
+
+Industrial Robots
+-----------------
+i1 - Epson Discproducer PP-100
+i2 - PR KUKA Industrial Robot KR15
+i3 - PR KUKA Industrial Robot KR16
+i4 - MotoMan MA1400
+i5 - Brokk Demolition Robot
+
+ 
+Military Robots
+---------------
+m1 - Samsung Sentry
+m2 - UAV Predator
+m3 - ABB Robot
+m4 - Big Dog
+m5 - Foster-Miller Bomb Disposal
+
+Special Demo - Educational Robotics
+-----------------------------------
+e1 - FischerTechnik Explorer
+e2 - LEGO Mindstorms EV3
+e3 - Meccano Spykee
+e4 - NAO
+e5 - Sony Aibo
+e6 - LEGO Mindstorms NXT 2.0

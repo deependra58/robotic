@@ -1,0 +1,264 @@
+/* https://www.templatemonsterpreview.com/demo/196803.html?_gl=1*16sygci*_ga*MTg3NDQ4NzUyNC4xNjYwNjQ5MzE0*_ga_FTPYEGT5LY*MTY2MDY0OTMxNC4xLjAuMTY2MDY0OTMxNC42MA..&_ga=2.226975069.1598483482.1660649314-1874487524.1660649314&_gac=1.195491422.1660649314.Cj0KCQjwgO2XBhCaARIsANrW2X2IvWjpBskE7toHOODl1GlV_Mk1tzPKtxk6HGcKXpjKwnElK6biCyEaArDUEALw_wcB */
+
+@font-face {
+    font-family: Generica;
+    src: url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900)
+}
+
+body {
+    background-color: #fafafa;
+}
+
+html,
+body,
+html * {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    /* position: fixed; */
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items {
+    order: 2;
+    display: flex;
+}
+
+.logo {
+    order: 1;
+    font-size: 2.3rem;
+}
+
+.menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #a82b33;
+}
+
+.logo-img {
+    height: 50px;
+    width: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Schedule and time table */
+
+.heading-bg {
+    position: relative;
+    background: #e2e2e2;
+    width: 100%;
+    margin: 0px;
+    padding: 50px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.schedule {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.tours {
+    margin: 40px auto;
+    text-align: center;
+    width: 45%;
+    border: 1px solid #fafafa;
+    padding: 15px 25px;
+    box-shadow: 0 3px 24px rgb(0 0 0/10%);
+    color: #666666;
+}
+
+.blue-txt {
+    color: #3498db;
+}
+
+.red-txt {
+    color: #a82b33;
+}
+
+.green-txt {
+    color: green;
+}
+
+.days {
+    text-align: center;
+}
+
+/* .day-active {
+    display: inline-block;
+    border: 1px solid #a82b33;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto 15px;
+    text-align: center;
+    background-color: #a82b33;
+    color: #ffffff;
+    max-width: 145px;
+}
+
+.day-normal {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto 15px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #3498db;
+    max-width: 145px;
+    box-shadow: 0 3px 24px rgb(0 0 0/10%)
+} */
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.fs-10 {
+    font-size: 12px;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    color: #666666;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    text-align: left;
+    font-size: 16px;
+    width: 100px;
+}
+
+
+.border-none {
+    background: none !important;
+    border: none;
+    padding: 10px 0px
+}
+
+/* Grid Layout */
+
+.row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.row .row {
+    margin: 0;
+}
+
+.row>* {
+    padding: 15px;
+    flex: 1;
+    margin: 15px;
+    box-shadow: 0 3px 24px rgb(0 0 0/10%);
+
+}
+
+.one-half {
+    width: calc(100% * 1/2);
+    flex: none;
+}
+
+.two-thirds {
+    width: calc(100% * 2/3);
+    flex: none;
+}
+
+.open-msg {
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    border: dotted lightgrey 3px;
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row>* {
+        width: 100%;
+        flex: none;
+    }
+
+    .row .row {
+        margin: 15px -15px -15px;
+    }
+}
