@@ -13,6 +13,7 @@ html,
 body,
 html * {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 html {
@@ -28,9 +29,18 @@ html {
 }
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
+
+/* .container {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    transition: width .1s;
+} */
+
+
 
 .navbar {
     box-shadow: 0px 5px 10px 0px #aaa;
@@ -79,7 +89,7 @@ html {
 
 .logo-img {
     height: 50px;
-    width: 150px;
+    width: 100%
 }
 
 .text-center {
@@ -165,6 +175,10 @@ html {
     margin-top: 10px;
 }
 
+.m-auto {
+    margin: 25px 0px;
+}
+
 .mt-25 {
     margin-top: 25px;
 }
@@ -211,11 +225,18 @@ th {
     padding: 10px 0px
 }
 
+.border-shadow {
+    box-shadow: 0 3px 24px rgb(0 0 0/10%);
+    margin: 15px;
+}
+
 /* Grid Layout */
 
 .row {
-    margin-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .row .row {
@@ -225,8 +246,7 @@ th {
 .row>* {
     padding: 15px;
     flex: 1;
-    margin: 15px;
-    box-shadow: 0 3px 24px rgb(0 0 0/10%);
+    /* margin: 5px; */
 
 }
 
@@ -237,6 +257,11 @@ th {
 
 .two-thirds {
     width: calc(100% * 2/3);
+    flex: none;
+}
+
+.one-fourth {
+    width: calc(100% * 1/4);
     flex: none;
 }
 
@@ -260,5 +285,40 @@ th {
 
     .row .row {
         margin: 15px -15px -15px;
+    }
+}
+
+
+@media (min-width: 640px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .time {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        width: 70%;
     }
 }

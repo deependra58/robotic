@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="./styles/carousel.css">
-
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/card.css">
     <title>Document</title>
 </head>
 
@@ -23,7 +24,7 @@
                 <li><a href="#business_hours">Business Hours</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <h1 class="logo"> <img class="logo-img" src="./images/logo.png" alt="logo"> </h1>
+            <h1 class="logo"> <img class="logo-img" src="./assets/logo.png" alt="logo"> </h1>
         </div>
     </nav>
 
@@ -41,9 +42,29 @@
         <input type="radio" name="position" />
         <input type="radio" name="position" />
         <main id="carousel">
-            <div class="item">One</div>
-            <div class="item">Two</div>
-            <div class="item">Welcome to hell</div>
+            <div class="item">
+                One
+            </div>
+            <div class="item">
+
+            </div>
+            <div class="item card-3">
+                <div class="cards">
+                    <p style="font-size: 25px">
+                        <marquee>
+                            <span class="fw-bold" style="color: #97C774">W</span>
+                            <span class="fw-bold" style="color: #B63E98">E</span>
+                            <span class="fw-bold" style="color: #D18E62">L</span>
+                            <span class="fw-bold" style="color: #DB3E41">C</span>
+                            <span class="fw-bold" style="color: #1BABA5">O</span>
+                            <span class="fw-bold" style="color: #1BABA5">M</span>
+                            <span class="fw-bold" style="color: #1BABA5">E</span>
+                        </marquee>
+
+                        To Robot Tech 2022
+                    </p>
+                </div>
+            </div>
             <div class="item">Four</div>
             <div class="item">Five</div>
         </main>
@@ -62,46 +83,46 @@
 
         <!-- Opening Hours and Fees -->
         <div class="container">
-            <div class="row">
+            <div class="row m-auto">
                 <!-- Opening Hours -->
-                <div class="text-center">
+                <div class="text-center border-shadow">
                     <p class="title text-center">Opening Hours</p>
                     <p class="open-msg">We are <span class="green-txt">Open</span> today.</p>
                     <table class="opening-table">
 
                         <tr class="border-none">
                             <td class="border-none">Monday</td>
-                            <td class="border-none">10:00 AM - 4:00 PM</td>
+                            <td class="border-none time">10:00 AM - 4:00 PM</td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none">Tuesday</td>
-                            <td class="border-none">10:00 AM - 4:00 PM</td>
+                            <td class="border-none time">10:00 AM - 4:00 PM</td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none"> <span class="green-txt">Wednesday</span></td>
-                            <td class="border-none"> <span class="green-txt">10:00 AM - 4:00 PM</span> </td>
+                            <td class="border-none time"> <span class="green-txt">10:00 AM - 4:00 PM</span> </td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none">Thursday</td>
-                            <td class="border-none">10:00 AM - 4:00 PM</td>
+                            <td class="border-none time">10:00 AM - 4:00 PM</td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none">Friday</td>
-                            <td class="border-none"> <span>10.00 AM - 1.00 PM</span> <br> 2.00 AM - 6.00 PM</td>
+                            <td class="border-none time"> <span>10.00 AM - 1.00 PM</span> <br> 2.00 AM - 6.00 PM</td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none">Saturday</td>
-                            <td class="border-none">10.00 AM-05.00 PM</td>
+                            <td class="border-none time">10.00 AM-05.00 PM</td>
                         </tr>
 
                         <tr class="border-none">
                             <td class="border-none">Sunday</td>
-                            <td class="border-none"> <span class="red-txt">Closed</span> </td>
+                            <td class="border-none time"> <span class="red-txt">Closed</span> </td>
                         </tr>
 
                         <tr>
@@ -113,7 +134,7 @@
                 </div>
 
                 <!-- Fees -->
-                <div class="two-thirds ">
+                <div class="two-thirds border-shadow">
                     <p class="title">Entrance Fees</p>
                     <table>
                         <thead>
@@ -154,6 +175,79 @@
 
             </div>
 
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="one-fourth text-center">
+                    <a href="index.html">
+                        <img src="./assets/logo.png" alt="" class="footer-logo">
+                    </a>
+                    <div class="footer-about">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, </p>
+                    </div>
+
+                </div>
+                <div class="one-fourth">
+                    <div class="useful-link">
+                        <h2>Useful Links</h2>
+                        <div class="use-links">
+                            <li><a href="index.html"> Home</a></li>
+                            <li><a href="about.html"> About Us</a></li>
+                            <li><a href="gallery.html"> Business Hours and Fees</a></li>
+                            <li><a href="contact.html"> Contact</a></li>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="one-fourth">
+                    <div class="social-links">
+                        <h2>Follow Us</h2>
+                        <div class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank"><img
+                                        src="./assets/social media/fb-logo.png" alt="" height="50px" width="50px">
+                                    Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank"><img
+                                        src="./assets/social media/insta-logo.png" alt="" height="50px" width="50px">
+                                    Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank"><img
+                                        src="./assets/social media/twitter-logo1.png" alt="" height="50px" width="50px">
+                                    Twitter</a>
+                            </li>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="one-fourth">
+                    <div class="address">
+                        <h2>Address</h2>
+                        <!-- <img src="./assets/miscellaneous/location.png" alt="" class="location-img"> -->
+                        <div class="address-links">
+                            <li class="address1"> 9 Helsinki St. Spring Mountain</li>
+                            <li><a href="tel:071259 2563">(07) 1259 2563</a></li>
+                            <li><a href="mailto: robotech2022@aust.org">robotech2022@aust.org</a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer copy right section -->
+    <section id="copy-right">
+        <div class="copy-right-sec">©
+            Robot Tech 2022 Powerd By <a href="https://www.cqu.edu.au/" target="_blank">CQUniversity</a>
         </div>
     </section>
 </body>
