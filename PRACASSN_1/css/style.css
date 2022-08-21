@@ -183,6 +183,10 @@ html {
     margin-top: 25px;
 }
 
+.mb-25{
+    margin: 25px auto;
+}
+
 .fs-10 {
     font-size: 12px;
 }
@@ -255,6 +259,11 @@ th {
     flex: none;
 }
 
+.one-thirds {
+    width: calc(100% * 1/3);
+    flex: none;
+}
+
 .two-thirds {
     width: calc(100% * 2/3);
     flex: none;
@@ -263,6 +272,10 @@ th {
 .one-fourth {
     width: calc(100% * 1/4);
     flex: none;
+}
+
+.marquee .one-fourth {
+    display: inline-block;
 }
 
 .open-msg {

@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="./styles/carousel.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/card.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/robots.css">
+    <title>Robot Tech 2022</title>
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Header Navbar -->
     <nav class="navbar">
         <div class="navbar-container container">
             <ul class="menu-items">
@@ -24,16 +25,14 @@
                 <li><a href="#business_hours">Business Hours</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <h1 class="logo"> <img class="logo-img" src="./assets/logo.png" alt="logo"> </h1>
+            <h1 class="logo">
+                <a href="index.html"><img class="logo-img" src="./assets/logo.png" alt="logo"></a>
+            </h1>
         </div>
     </nav>
 
-    <!-- Schedule and time table -->
 
-    <!-- <div class="schedule">
-        <h3> <span class="blue-txt">Timetable /</span> <span class="red-txt">Fees</span></h3>
-    </div> -->
-
+    <!-- Home Page -->
 
     <section id="home">
         <input type="radio" name="position" />
@@ -42,32 +41,304 @@
         <input type="radio" name="position" />
         <input type="radio" name="position" />
         <main id="carousel">
+
+            <!-- Educational Robots -->
             <div class="item">
-                One
-            </div>
-            <div class="item">
+                <p><img src="./assets/educational_robotics/e1.jpg" class="carousel-img" alt=""></p>
+                <p class="title">Educational Robots</p>
+
+                <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry.</p>
+
+                <p class="explore text-center">
+                    <button class="exp-btn"> <a href="#educational">See All</a></button>
+                </p>
 
             </div>
+
+            <!-- Domestic Robot -->
+            <div class="item">
+                <p><img src="./assets/domestic_robots/d1.jpg" class="carousel-img" alt=""></p>
+                <p class="title">Domestic Robots</p>
+
+                <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry.</p>
+
+                <p class="explore text-center">
+                    <button class="exp-btn"> <a href="#domestic">See All</a></button>
+                </p>
+
+            </div>
+
+            <!-- Welcome Slide -->
             <div class="item card-3">
-                <div class="cards">
-                    <p style="font-size: 25px">
-                        <marquee>
-                            <span class="fw-bold" style="color: #97C774">W</span>
-                            <span class="fw-bold" style="color: #B63E98">E</span>
-                            <span class="fw-bold" style="color: #D18E62">L</span>
-                            <span class="fw-bold" style="color: #DB3E41">C</span>
-                            <span class="fw-bold" style="color: #1BABA5">O</span>
-                            <span class="fw-bold" style="color: #1BABA5">M</span>
-                            <span class="fw-bold" style="color: #1BABA5">E</span>
-                        </marquee>
+                <div class="cards welcome-card">
 
-                        To Robot Tech 2022
-                    </p>
+                    <p>WELCOME</p>
+
+                    <p>TO</p>
+
+                    <p>ROBOT TECH</p>
+                    <p>2022</p>
+
+                    <p style="font-size: 16px"><small>“More than a machine. A friend you can count on.”</small></p>
                 </div>
             </div>
-            <div class="item">Four</div>
-            <div class="item">Five</div>
+
+            <!-- Industry Robot -->
+            <div class="item">
+                <p><img src="./assets/industry_robots/i1.jpg" class="carousel-img" alt=""></p>
+                <p class="title">Industry Robots</p>
+
+                <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry.</p>
+
+                <p class="explore text-center">
+                    <button class="exp-btn"> <a href="#industry">See All</a></button>
+                </p>
+
+            </div>
+
+            <!-- Military Robot -->
+            <div class="item">
+                <p><img src="./assets/military_robots/m1.jpg" class="carousel-img" alt=""></p>
+                <p class="title">Military Robots</p>
+
+                <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry.</p>
+
+                <p class="explore text-center">
+                    <button class="exp-btn"> <a href="#military">See All</a></button>
+                </p>
+
+            </div>
         </main>
+    </section>
+
+
+    <section >
+
+        <div class="schedule heading-bg" style="position: relative;">
+
+            <div>
+                <h3> <span class="blue-txt"> Robots</h3>
+            </div>
+        </div>
+
+        <!-- All Domestic Robots  -->
+
+        <div class="container robots" id="domestic">
+
+            <div class="mt-25">
+                <h3> <span class="blue-txt">Domestic Robots</h3>
+                
+            </div>
+
+            <div class="row">
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d1.jpg" alt="">
+
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+
+                <div class="one-thirds mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d2.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d3.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d4.jpg" alt="">
+
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+
+                <div class="one-thirds mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d5.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/domestic_robots/d6.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Eductional Robots -->
+        <div class="container robots" id="educational">
+
+            <div class="mt-25">
+                <h3> <span class="blue-txt">Educational Robots</h3>
+                
+            </div>
+
+            <div class="row">
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e1.jpg">
+
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+
+                <div class="one-thirds mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e2.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e3.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e4.jpg" alt="">
+
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+
+                </div>
+
+                <div class="one-thirds mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e5.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+
+                <div class="one-thirds  mb-25">
+                    <div class="border-shadows">
+                        <img src="./assets/educational_robotics/e6.jpg" alt="">
+                        <p class="title">Cras Bibendum Venenatis</p>
+                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when
+                            an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not
+                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
+                            essentially
+                            unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="business_hours">
@@ -75,7 +346,10 @@
         <div class="schedule heading-bg" style="position: relative;">
 
             <div>
-                <h3> <span class="blue-txt">Business Hours /</span> <span class="red-txt">Fees</span></h3>
+                <h3> <span class="blue-txt">Business Hours & Fees
+
+                        <!-- </span> <span class="red-txt"></span> -->
+                </h3>
             </div>
         </div>
 
