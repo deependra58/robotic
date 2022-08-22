@@ -19,15 +19,25 @@
 .welcome-card p {
 	padding: 25px;
 	font-size: 25px;
+	color: #ffffff;
 
 }
 
 .item .carousel-img {
-	height: 256px;
+	height: 267px;
 	width: 100%;
 	object-fit: contain;
 	border: 1px solid #e1d9d9;
 }
+
+.inner-img {
+	transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+	transform: scale(1.1);
+	object-fit: fill;
+  }
 
 .item .title {
 	font-weight: 14px;
@@ -39,6 +49,7 @@
 	padding: 5px 15px;
 	text-align: justify;
 	color: #525252;
+	font-size: 14px;
 }
 
 .item .explore button {
@@ -53,10 +64,10 @@
 	border: none;
 }
 
-button:hover{
+button:hover {
 	background-color: #57171b;
 }
 
-button a{
+button a {
 	color: white;
 }

@@ -1,18 +1,24 @@
-/* https://www.templatemonsterpreview.com/demo/196803.html?_gl=1*16sygci*_ga*MTg3NDQ4NzUyNC4xNjYwNjQ5MzE0*_ga_FTPYEGT5LY*MTY2MDY0OTMxNC4xLjAuMTY2MDY0OTMxNC42MA..&_ga=2.226975069.1598483482.1660649314-1874487524.1660649314&_gac=1.195491422.1660649314.Cj0KCQjwgO2XBhCaARIsANrW2X2IvWjpBskE7toHOODl1GlV_Mk1tzPKtxk6HGcKXpjKwnElK6biCyEaArDUEALw_wcB */
+/* https://www.templatemonsterpreview.com/demo/196803.html?_gl=1*16sygci*_ga*MTg3NDQ4NzUyNC4xNjYwNjQ5MzE0*_ga_FTPYEGT5LY*MTY2MDY0OTMxNC4xLjAuMTY2MDY0OTMxNC42MA..&_ga=2.226975069.1598483482.1660649314-1874487524.1660649314&_gac=1.195491422.1660649314.Cj0KCQjwgO2XBh
+ARIsANrW2X2IvWjpBskE7toHOODl1GlV_Mk1tzPKtxk6HGcKXpjKwnElK6biCyEaArDUEALw_wcB */
 
 @font-face {
     font-family: Generica;
-    src: url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900)
+    src: url(https://fonts.googleapis.com/css?family=Prata)
 }
 
 body {
     background-color: #fafafa;
 }
 
+p {
+    font-size: 16px;
+    color: #777777;
+}
+
 html,
 body,
 html * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Prata';
     overflow-x: hidden;
 }
 
@@ -49,7 +55,7 @@ html {
     background: #fff;
     color: #000;
     opacity: 0.85;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .navbar-container {
@@ -80,7 +86,7 @@ html {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navbar a:hover {
@@ -108,8 +114,19 @@ html {
 }
 
 .title {
-    font-size: 18px;
-    font-weight: bold;
+    /* font-size: 18px;
+    font-weight: bold; */
+    margin: 0;
+    color: #302e2f;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.title-big {
+    margin: 0;
+    color: #302e2f;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .schedule {
@@ -121,7 +138,7 @@ html {
 .tours {
     margin: 40px auto;
     text-align: center;
-    width: 45%;
+    width: 55%;
     border: 1px solid #fafafa;
     padding: 15px 25px;
     box-shadow: 0 3px 24px rgb(0 0 0/10%);
@@ -130,6 +147,12 @@ html {
 
 .blue-txt {
     color: #3498db;
+    border-bottom: 2px solid #a82b33;
+    height: 47px;
+}
+
+h3 {
+    height: 50px;
 }
 
 .red-txt {
@@ -171,6 +194,10 @@ html {
     box-shadow: 0 3px 24px rgb(0 0 0/10%)
 } */
 
+.mb-25 {
+    margin-bottom: 25px;
+}
+
 .mt-10 {
     margin-top: 10px;
 }
@@ -183,8 +210,9 @@ html {
     margin-top: 25px;
 }
 
-.mb-25{
-    margin: 25px auto;
+
+.mt-35 {
+    margin-top: 35px;
 }
 
 .fs-10 {
@@ -231,7 +259,11 @@ th {
 
 .border-shadow {
     box-shadow: 0 3px 24px rgb(0 0 0/10%);
-    margin: 15px;
+    margin: 0px 5px;
+    width: 99%;
+    padding: 15px;
+
+
 }
 
 /* Grid Layout */
@@ -252,6 +284,11 @@ th {
     flex: 1;
     /* margin: 5px; */
 
+}
+
+.col {
+    width:100%;
+    flex: none;
 }
 
 .one-half {
@@ -284,6 +321,17 @@ th {
     padding: 5px;
     text-align: center;
     border: dotted lightgrey 3px;
+}
+
+.address .underline {
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
 }
 
 @media (max-width: 600px) {
@@ -335,3 +383,42 @@ th {
         width: 70%;
     }
 }
+
+/* Dropdown */
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    display: contents;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #444;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fefefe;
+    font-size: 16px;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

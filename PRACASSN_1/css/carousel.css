@@ -35,6 +35,8 @@ div.item {
   transition: all 0.25s linear;
   transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
   z-index: calc((var(--position) - var(--abs)));
+  font-size: 14px;
+  overflow: hidden;
 }
 
 div.item:nth-of-type(1) {
@@ -107,6 +109,7 @@ input:nth-of-type(3) {
 
 input:nth-of-type(3):checked~main#carousel {
   --position: 3;
+  z-index: -1;
 }
 
 input:nth-of-type(4) {
