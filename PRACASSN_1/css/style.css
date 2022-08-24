@@ -4,7 +4,10 @@ ARIsANrW2X2IvWjpBskE7toHOODl1GlV_Mk1tzPKtxk6HGcKXpjKwnElK6biCyEaArDUEALw_wcB */
 @font-face {
     font-family: Generica;
     src: url(https://fonts.googleapis.com/css?family=Prata)
+        /* src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap) */
 }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 body {
     background-color: #fafafa;
@@ -12,13 +15,14 @@ body {
 
 p {
     font-size: 16px;
-    color: #777777;
+    color: #464343;
 }
 
 html,
 body,
 html * {
-    font-family: 'Prata';
+    font-family: 'Roboto';
+    /* font-family: 'Roboto', sans-serif; */
     overflow-x: hidden;
 }
 
@@ -83,6 +87,7 @@ html:focus-within {
     list-style: none;
     margin-left: 1.5rem;
     font-size: 1.3rem;
+    height: 30px;
 }
 
 .navbar a {
@@ -90,7 +95,7 @@ html:focus-within {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar a:hover {
@@ -104,6 +109,15 @@ html:focus-within {
 
 .text-center {
     text-align: center;
+}
+
+.fw-s {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.custom-padding {
+    padding: 10px !important;
 }
 
 
@@ -169,6 +183,18 @@ h3 {
 
 .days {
     text-align: center;
+}
+
+.time {
+    font-size: 16px;
+    width: 60%;
+    white-space: nowrap;
+}
+
+
+.opening-table td {
+    border: none;
+    background-color: #fafafa;
 }
 
 /* .day-active {
@@ -371,9 +397,9 @@ th {
         width: 90%;
     }
 
-    .time {
+    /* .time {
         font-size: 12px;
-    }
+    } */
 }
 
 @media (min-width: 1280px) {

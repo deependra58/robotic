@@ -14,10 +14,6 @@
     position: absolute;
 }
 
-.tabs>input[type=radio]:checked+label {
-    /* background: yellow; */
-}
-
 .tabs>input[type=radio]:checked+label+section {
     display: unset;
 }
@@ -25,8 +21,6 @@
 .tabs>label {
     padding: .5em 1em;
     cursor: pointer;
-    /* background: #b4d5e4; */
-    /* border-right: 1px solid #798f99; */
 }
 
 .tabs>label:last-of-type {
@@ -35,7 +29,7 @@
 
 .tabs>input[type=radio]:checked+label {
     /* background: #798f99; */
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #a82b33;
 }
 
 .tabs section {

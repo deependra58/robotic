@@ -32,12 +32,13 @@
 
 .inner-img {
 	transition: 0.3s;
-  }
-  
-  .inner-img:hover {
-	transform: scale(1.1);
-	object-fit: fill;
-  }
+}
+
+.inner-img:hover {
+	transform: scale(1.11);
+	object-fit: contain;
+	background-color: #ffffff;
+}
 
 .item .title {
 	font-weight: 14px;
