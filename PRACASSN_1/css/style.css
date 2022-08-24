@@ -1,13 +1,7 @@
-/* https://www.templatemonsterpreview.com/demo/196803.html?_gl=1*16sygci*_ga*MTg3NDQ4NzUyNC4xNjYwNjQ5MzE0*_ga_FTPYEGT5LY*MTY2MDY0OTMxNC4xLjAuMTY2MDY0OTMxNC42MA..&_ga=2.226975069.1598483482.1660649314-1874487524.1660649314&_gac=1.195491422.1660649314.Cj0KCQjwgO2XBh
-ARIsANrW2X2IvWjpBskE7toHOODl1GlV_Mk1tzPKtxk6HGcKXpjKwnElK6biCyEaArDUEALw_wcB */
-
 @font-face {
-    font-family: Generica;
-    src: url(https://fonts.googleapis.com/css?family=Prata)
-        /* src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap) */
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap)
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 body {
     background-color: #fafafa;
