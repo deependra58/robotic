@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/robots.css">
+    <link rel="stylesheet" href="css/tab.css">
+
     <link rel="icon" type="image/x-icon" href="./assets/logo.png">
     <title>Robot Tech 2022</title>
 </head>
@@ -22,18 +24,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="#floor_plan">Floor Plan</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a class="dropbtn">Robots</a>
-                        <div class="dropdown-content">
-                            <a href="#domestic">Domestic Robots</a>
-                            <a href="#educational">Educational Robots</a>
-                            <a href="#industry">Industry Robots</a>
-                            <a href="#military">Military Robots</a>
-                        </div>
-                    </div>
-                </li>
-
+                <li><a href="#robots">Robots</a></li>
                 <li><a href="businessHours.html">Business Hours</a></li>
                 <li><a href="#footer">Contact</a></li>
             </ul>
@@ -64,7 +55,7 @@
                     industry.</p>
 
                 <p class="explore text-center">
-                    <button class="exp-btn"> <a href="#educational">See All</a></button>
+                    <button class="exp-btn"> <a href="#robots">See All</a></button>
                 </p>
 
             </div>
@@ -79,7 +70,7 @@
                     industry.</p>
 
                 <p class="explore text-center">
-                    <button class="exp-btn"> <a href="#domestic">See All</a></button>
+                    <button class="exp-btn"> <a href="#robots">See All</a></button>
                 </p>
 
             </div>
@@ -109,7 +100,7 @@
                     industry.</p>
 
                 <p class="explore text-center">
-                    <button class="exp-btn"> <a href="#industry">See All</a></button>
+                    <button class="exp-btn"> <a href="#robots">See All</a></button>
                 </p>
 
             </div>
@@ -124,7 +115,7 @@
                     industry.</p>
 
                 <p class="explore text-center">
-                    <button class="exp-btn"> <a href="#military">See All</a></button>
+                    <button class="exp-btn"> <a href="#robots">See All</a></button>
                 </p>
 
             </div>
@@ -186,7 +177,6 @@
 
     </section>
 
-
     <!-- Robots -->
     <section id="robots">
 
@@ -197,418 +187,480 @@
             </div>
         </div>
 
-        <!-- All Domestic Robots  -->
+        <div class="container robots mt-25">
+            <div class='tabs'>
 
-        <div class="container robots" id="domestic">
+                <!-- Domestic Robots -->
+                <input type="radio" name="tab" id="tab1" role="tab" checked>
+                <label for="tab1" id="domestic_robot" class="title">Domestic Robots</label>
+                <section aria-labelledby="domestic_robot">
+                    <div class="row">
+                        <!-- First domestic robot  -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d1.jpg" alt="">
 
-            <div class="mt-35">
-                <h3> <span class="title">Domestic Robots</h3>
-            </div>
+                                <p class="title">Roomba Vacuum</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                    It has survived not only five Hawai tier centuries, but also the leap into
+                                    electronic
+                                    typesetting, remaining essentially unchanged.
+                                </p>
+                            </div>
 
-            <div class="row">
-                <!-- First domestic robot  -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d1.jpg" alt="">
+                        </div>
 
-                        <p class="title">Roomba Vacuum</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            It has survived not only five Hawai tier centuries, but also the leap into electronic
-                            typesetting, remaining essentially unchanged.
-                        </p>
+                        <!-- Second domestic robot -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d2.jpg" alt="">
+                                <p class="title">IRT Maid</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Third domestic robot -->
+                        <div class="one-thirds ">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d3.jpg" alt="">
+                                <p class="title">Mitsubishi Makamaru</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth domestic robot -->
+                        <div class="one-thirds  mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d4.jpg" alt="">
+
+                                <p class="title">Honda Asimo</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Fifth domestic robot -->
+                        <div class="one-thirds mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d5.jpg" alt="">
+                                <p class="title">Robomow RS630</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Sixth domestic robot -->
+                        <div class="one-thirds  mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/domestic_robots/d6.jpg" alt="">
+                                <p class="title">Korean Robot Smiley</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Educational Robots -->
+                <input type="radio" name="tab" id="tab2" role="tab">
+                <label for="tab2" id="educational_robot" class="title">Educational Robots</label>
+                <section aria-labelledby="educational_robot">
+
+                    <div class="row">
+                        <!-- First educational robot -->
+                        <div class="one-thirds ">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e1.jpg">
+
+                                <p class="title">FischerTechnik Explorer</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Second educational robot -->
+                        <div class="one-thirds ">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e2.jpg" alt="">
+                                <p class="title">LEGO Mindstorms EV3</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Third educational robot -->
+                        <div class="one-thirds  ">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e3.jpg" alt="">
+                                <p class="title">Meccano Spykee</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth educational robot -->
+                        <div class="one-thirds  mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e4.jpg" alt="">
+
+                                <p class="title">NAO</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Fifth educational robot -->
+                        <div class="one-thirds mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e5.jpg" alt="">
+                                <p class="title">Sony Aibo</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Sixth educational robt -->
+                        <div class="one-thirds  mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/educational_robotics/e6.jpg" alt="">
+                                <p class="title">LEGO Mindstorms NXT 2.0</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Industrial Robots -->
+                <input type="radio" name="tab" id="tab3" role="tab">
+                <label for="tab3" id="industry_robot" class="title">Industrial Robots</label>
+                <section aria-labelledby="industry_robot">
+
+                    <div class="row">
+                        <!-- First Industry robot -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/industry_robots/i1.jpg">
+
+                                <p class="title">Epson Discproducer PP-100</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Second Industry robot -->
+                        <div class="one-third">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/industry_robots/i2.jpg" alt="">
+                                <p class="title">PR KUKA Industrial Robot KR15</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Third Industry robot -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/industry_robots/i3.jpg" alt="">
+                                <p class="title">PR KUKA Industrial Robot KR16</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth Industry robot -->
+                        <div class="one-thirds  mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/industry_robots/i4.jpg" alt="">
+
+                                <p class="title">MotoMan MA1400</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Fifth Industry robot -->
+                        <div class="one-thirds mt-10">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/industry_robots/i5.jpg" alt="">
+                                <p class="title">Brokk Demolition Robot</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <div class="one-thirds  mb-10">
+                        </div>
                     </div>
 
-                </div>
+                </section>
 
-                <!-- Second domestic robot -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d2.jpg" alt="">
-                        <p class="title">IRT Maid</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
+                <!-- Military Robots -->
+                <input type="radio" name="tab" id="tab4" role="tab">
+                <label for="tab4" class="title">Military Robots</label>
+                <section>
+
+                    <div class="row">
+                        <!-- First Industry robot -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/military_robots/m1.jpg">
+
+                                <p class="title">Samsung Sentry</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Second Industry robot -->
+                        <div class="one-third">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/military_robots/m2.jpg" alt="">
+                                <p class="title">UAV Predator</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Third Industry robot -->
+                        <div class="one-thirds">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/military_robots/m3.jpg" alt="">
+                                <p class="title">ABB Robot</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth Industry robot -->
+                        <div class="one-thirds  mt-10 mb-25">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/military_robots/m4.jpg" alt="">
+
+                                <p class="title">Big Dog</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- Fifth Industry robot -->
+                        <div class="one-thirds mt-10 mb-25">
+                            <div class="border-shadows">
+                                <img class="inner-img" src="./assets/military_robots/m5.jpg" alt="">
+                                <p class="title">Foster-Miller Bomb Disposal</p>
+                                <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,
+                                    when
+                                    an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived
+                                    not
+                                    only five Hawai tier centuries, but also the leap into electronic typesetting,
+                                    remaining
+                                    essentially
+                                    unchanged.</p>
+                            </div>
+                        </div>
+
+                        <div class="one-thirds  mb-10">
+                        </div>
                     </div>
-                </div>
+                </section>
 
-                <!-- Third domestic robot -->
-                <div class="one-thirds ">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d3.jpg" alt="">
-                        <p class="title">Mitsubishi Makamaru</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Fourth domestic robot -->
-                <div class="one-thirds  mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d4.jpg" alt="">
-
-                        <p class="title">Honda Asimo</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Fifth domestic robot -->
-                <div class="one-thirds mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d5.jpg" alt="">
-                        <p class="title">Robomow RS630</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Sixth domestic robot -->
-                <div class="one-thirds  mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/domestic_robots/d6.jpg" alt="">
-                        <p class="title">Korean Robot Smiley</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
             </div>
         </div>
-
-        <!-- All Eductional Robots -->
-        <div class="container robots" id="educational">
-
-            <div class="mt-35">
-                <h3> <span class="title">Educational Robots</h3>
-            </div>
-
-            <div class="row">
-                <!-- First educational robot -->
-                <div class="one-thirds ">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e1.jpg">
-
-                        <p class="title">FischerTechnik Explorer</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Second educational robot -->
-                <div class="one-thirds ">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e2.jpg" alt="">
-                        <p class="title">LEGO Mindstorms EV3</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Third educational robot -->
-                <div class="one-thirds  ">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e3.jpg" alt="">
-                        <p class="title">Meccano Spykee</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Fourth educational robot -->
-                <div class="one-thirds  mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e4.jpg" alt="">
-
-                        <p class="title">NAO</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Fifth educational robot -->
-                <div class="one-thirds mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e5.jpg" alt="">
-                        <p class="title">Sony Aibo</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Sixth educational robt -->
-                <div class="one-thirds  mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/educational_robotics/e6.jpg" alt="">
-                        <p class="title">LEGO Mindstorms NXT 2.0</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- All Industry Robots -->
-        <div class="container robots" id="industry">
-
-            <div class="mt-35">
-                <h3> <span class="title">Industry Robots</h3>
-            </div>
-
-            <div class="row">
-                <!-- First Industry robot -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/industry_robots/i1.jpg">
-
-                        <p class="title">Epson Discproducer PP-100</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Second Industry robot -->
-                <div class="one-third">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/industry_robots/i2.jpg" alt="">
-                        <p class="title">PR KUKA Industrial Robot KR15</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Third Industry robot -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/industry_robots/i3.jpg" alt="">
-                        <p class="title">PR KUKA Industrial Robot KR16</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Fourth Industry robot -->
-                <div class="one-thirds  mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/industry_robots/i4.jpg" alt="">
-
-                        <p class="title">MotoMan MA1400</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Fifth Industry robot -->
-                <div class="one-thirds mt-10">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/industry_robots/i5.jpg" alt="">
-                        <p class="title">Brokk Demolition Robot</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <div class="one-thirds  mb-10">
-                </div>
-            </div>
-        </div>
-
-        <!-- All Military Robots -->
-        <div class="container robots" id="military">
-
-            <div class="mt-35">
-                <h3> <span class="title">Military Robots</h3>
-            </div>
-
-            <div class="row">
-                <!-- First Industry robot -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/military_robots/m1.jpg">
-
-                        <p class="title">Samsung Sentry</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Second Industry robot -->
-                <div class="one-third">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/military_robots/m2.jpg" alt="">
-                        <p class="title">UAV Predator</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Third Industry robot -->
-                <div class="one-thirds">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/military_robots/m3.jpg" alt="">
-                        <p class="title">ABB Robot</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <!-- Fourth Industry robot -->
-                <div class="one-thirds  mt-10 mb-25">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/military_robots/m4.jpg" alt="">
-
-                        <p class="title">Big Dog</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-
-                </div>
-
-                <!-- Fifth Industry robot -->
-                <div class="one-thirds mt-10 mb-25">
-                    <div class="border-shadows">
-                        <img class="inner-img" src="./assets/military_robots/m5.jpg" alt="">
-                        <p class="title">Foster-Miller Bomb Disposal</p>
-                        <p class="desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when
-                            an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not
-                            only five Hawai tier centuries, but also the leap into electronic typesetting, remaining
-                            essentially
-                            unchanged.</p>
-                    </div>
-                </div>
-
-                <div class="one-thirds  mb-10">
-                </div>
-            </div>
-        </div>
-
     </section>
 
     <!-- Business Hours and fees -->
