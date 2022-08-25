@@ -130,7 +130,7 @@ a:hover {
 }
 
 .wh-bg {
-    width: 100% !important;
+    /* width: 100% !important; */
     background: white;
     color: grey;
     margin: 0 0.5em;
