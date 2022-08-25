@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap)
+    src: url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900)
 }
 
 body {
@@ -9,14 +9,18 @@ body {
 
 p {
     font-size: 16px;
-    color: #464343;
+    color: #777777;
+}
+
+strong {
+    color: #39393a;
 }
 
 html,
 body,
 html * {
-    font-family: 'Roboto';
-    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto'; */
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
 
@@ -108,10 +112,21 @@ html:focus-within {
 .fw-s {
     font-weight: 700;
     text-transform: uppercase;
+    color: #39393a;
 }
 
 .custom-padding {
     padding: 10px !important;
+}
+
+a {
+    text-decoration: none;
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+a:hover {
+    text-decoration: revert;
 }
 
 
@@ -373,6 +388,12 @@ th {
     }
 }
 
+@media (min-width: 360px) {
+    .container {
+        width: 100%;
+    }
+}
+
 
 @media (min-width: 640px) {
     .container {
@@ -390,10 +411,6 @@ th {
     .container {
         width: 90%;
     }
-
-    /* .time {
-        font-size: 12px;
-    } */
 }
 
 @media (min-width: 1280px) {
