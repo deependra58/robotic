@@ -1,0 +1,129 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ddd;
+        }
+
+        .robot_tabs {
+            width: 600px;
+            height: 400px;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .robot_tabs ul {
+            list-style: none;
+        }
+
+        .robot_tabs ul li {
+            float: left;
+        }
+
+        .robot_tabs label {
+            display: block;
+            cursor: pointer;
+            /* width: 100px; */
+            padding: 25px;
+            font-size: 20px;
+            /* background-color: #00ace6; */
+            color: #fff;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .rd_tabs {
+            display: none;
+        }
+
+        .rd_tabs:checked~label {
+            border-bottom: 1px solid red;
+        }
+
+        .container {
+            display: none;
+            position: absolute;
+            left: 0;
+            height: 332px;
+            background-color: #fff;
+            box-shadow: 2px 2px 0 0 #c0c0c0;
+        }
+
+        h4 {
+            margin-bottom: 1rem;
+        }
+
+        .rd_tabs:checked~.container {
+            display: block;
+        }
+
+        .robot_tabs article {
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="robot_tabs">
+        <ul>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab1" checked>
+                <label for="tab1">Domestic Robots</label>
+                <div class="container">
+                    <article>
+                        <h4>First tab</h4>
+                        Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1
+                        Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1
+                        Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1
+                        Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+                <label for="tab2">Tab 2</label>
+                <div class="container">
+                    <article>
+                        <h4>Second tab</h4>
+                        Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2
+                        Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2
+                        Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2
+                        Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                <label for="tab3">Tab 3</label>
+                <div class="container">
+                    <article>
+                        <h4>Third tab</h4>
+                        Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3
+                        Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3
+                        Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3
+                        Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3
+                    </article>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+                <label for="tab4">Tab 4</label>
+                <div class="container">
+                    <article>
+                        <h4>Fourth tab</h4>
+                        Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4
+                        Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4
+                        Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4
+                        Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4
+                    </article>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>

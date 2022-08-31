@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.tabs>section {
+.tabs>article {
     order: 999;
     width: 100%;
     display: none;
@@ -14,7 +14,7 @@
     position: absolute;
 }
 
-.tabs>input[type=radio]:checked+label+section {
+.tabs>input[type=radio]:checked+label+article {
     display: unset;
 }
 
@@ -32,7 +32,7 @@
     border-bottom: 2px solid #a82b33;
 }
 
-.tabs section {
+.tabs article {
     /* border: 1px #798f99 solid; */
     /* border-top: 5px #798f99 solid; */
     padding: 1em;

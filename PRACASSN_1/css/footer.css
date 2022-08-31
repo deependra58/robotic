@@ -10,9 +10,9 @@
     color: #777777;
 }
 
-.social-links p {
+/* .social-links p {
     margin-top: 30px;
-}
+} */
 
 .social-links img {
     height: 20px;
@@ -21,8 +21,6 @@
 }
 
 .social-icons {
-    /* display: flex;
-    gap: 3rem; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -60,6 +58,18 @@ li {
 
 .use-links {
     line-height: 32px;
+}
+
+.use-links p {
+    height: 0px;
+}
+
+.use-links a {
+    color: #777777;
+}
+
+.use-links a:hover {
+    color: #a82b33;
 }
 
 .use-links li i {
@@ -115,7 +125,7 @@ li {
 }
 
 .copy-right-sec {
-    padding: 1.8rem;
+    padding: 15px;
     background: #82074a;
     color: #fff;
     text-align: center;
