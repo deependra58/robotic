@@ -1,3 +1,5 @@
+/* CSS for robots tab */
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -28,12 +30,11 @@
 }
 
 .tabs>input[type=radio]:checked+label {
-    /* background: #798f99; */
     border-bottom: 2px solid #a82b33;
 }
 
 .tabs article {
-    /* border: 1px #798f99 solid; */
-    /* border-top: 5px #798f99 solid; */
     padding: 1em;
 }
+
+/* End of robot tab */

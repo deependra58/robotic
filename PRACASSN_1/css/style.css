@@ -1,16 +1,18 @@
+@import url('robots.css');
+@import url('footer.css');
+@import url('tab.css');
+@import url('carousel.css');
+
 @font-face {
     font-family: Roboto;
     src: url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900)
 }
-
-
 
 html,
 body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth !important;
     overflow-x: hidden;
-
 }
 
 *,
@@ -25,7 +27,6 @@ body {
     width: 70%;
     margin: auto;
 }
-
 
 /* Navbar CSS */
 
@@ -127,6 +128,21 @@ a:hover {
 
 
 /* Schedule and time table */
+.schedule {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.tours {
+    margin: 40px auto;
+    text-align: center;
+    width: 55%;
+    border: 1px solid #fafafa;
+    padding: 15px 25px;
+    box-shadow: 0 3px 24px rgb(0 0 0/10%);
+    color: #666666;
+}
 
 .heading-bg {
     position: relative;
@@ -148,22 +164,6 @@ a:hover {
     color: #302e2f;
     font-size: 25px;
     margin-bottom: 15px;
-}
-
-.schedule {
-    text-align: center;
-    font-size: 30px;
-
-}
-
-.tours {
-    margin: 40px auto;
-    text-align: center;
-    width: 55%;
-    border: 1px solid #fafafa;
-    padding: 15px 25px;
-    box-shadow: 0 3px 24px rgb(0 0 0/10%);
-    color: #666666;
 }
 
 .blue-txt {
@@ -275,6 +275,18 @@ th {
 
 }
 
+/* Floor plan instruction */
+ul.instruction {
+    list-style-type: circle;
+}
+
+ul>li {
+    line-height: 25px;
+    margin: 10px;
+}
+
+/* End of floor plan instruction */
+
 /* Grid Layout */
 
 .row {
@@ -286,25 +298,6 @@ th {
     padding: 15px;
     flex: 1;
 
-}
-
-
-/* .row .row {
-    margin: 0;
-}
-
-.row>* {
-    padding: 15px;
-    flex: 1;
-
-} */
-
-ul.instruction {
-    list-style-type: circle;
-}
-
-ul>li {
-    line-height: 25px;
 }
 
 .col {
@@ -332,10 +325,6 @@ ul>li {
     flex: none;
 }
 
-.marquee .one-fourth {
-    display: inline-block;
-}
-
 .open-msg {
     display: block;
     margin-top: 15px;
@@ -355,6 +344,8 @@ ul>li {
     color: #777777;
 }
 
+/* Media Queries for different width */
+
 @media (max-width: 600px) {
     .row {
         flex-direction: column;
@@ -365,9 +356,6 @@ ul>li {
         flex: none;
     }
 
-    .row .row {
-        margin: 15px -15px -15px;
-    }
 }
 
 @media (min-width: 360px) {
@@ -406,42 +394,3 @@ ul>li {
         width: 70%;
     }
 }
-
-/* Dropdown */
-
-.dropbtn {
-    cursor: pointer;
-}
-
-.dropdown {
-    display: contents;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #444;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-    background-color: #fefefe;
-    font-size: 16px;
-
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

@@ -1,18 +1,9 @@
 /* Footer */
 
-
 #footer {
     background: #f7f7f7;
     background-image: url('../images/footer.jpg');
 }
-
-/* .p {
-    color: #777777;
-} */
-
-/* .social-links p {
-    margin-top: 30px;
-} */
 
 .social-links img {
     height: 20px;
@@ -109,3 +100,5 @@
     height: 100px;
     width: 100%;
 }
+
+/* End of footer */
